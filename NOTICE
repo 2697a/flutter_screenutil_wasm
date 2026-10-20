@@ -1,0 +1,17 @@
+flutter_screenutil_wasm
+
+Derived from flutter_screenutil 5.9.3:
+https://pub.dev/packages/flutter_screenutil/versions/5.9.3
+https://github.com/OpenFlutter/flutter_screenutil
+
+Original source headers credit 李卓原. Original attribution notices are
+retained in the source. The original Apache License, Version 2.0 is included
+in LICENSE.
+
+This independent fork renames the Dart package/public library and replaces
+recursive resize traversal with an explicit stack. It also adds documentation,
+an example, regression tests, and a local diagnostic acknowledgement for the
+legacy textScaleFactor getter without changing that getter's behavior.
+
+Fork repository: https://github.com/2697a/flutter_screenutil_wasm
+This fork is not an official release of the upstream project.

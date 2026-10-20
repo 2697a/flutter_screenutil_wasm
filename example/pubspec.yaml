@@ -1,0 +1,23 @@
+name: flutter_screenutil_wasm_example
+description: Interactive resize and retained-state example for flutter_screenutil_wasm.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Bundle the font used by Flutter's adaptive editing controls.
+  cupertino_icons: ^1.0.5
+  flutter_screenutil_wasm:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

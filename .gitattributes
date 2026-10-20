@@ -1,0 +1,3 @@
+# Preserve the original license and historical changelog byte-for-byte.
+LICENSE -text whitespace=cr-at-eol
+doc/UPSTREAM_CHANGELOG.md -text whitespace=-blank-at-eof

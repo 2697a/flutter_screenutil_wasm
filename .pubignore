@@ -1,0 +1,14 @@
+# .pubignore replaces .gitignore for package publication.
+.dart_tool/
+build/
+coverage/
+pubspec.lock
+pubspec_overrides.yaml
+.flutter-plugins
+.flutter-plugins-dependencies
+.DS_Store
+*.log
+
+# Host application validation notes are local to this checkout.
+LOCAL_PATCHES.md
+PUBLISH_CHECK.md
